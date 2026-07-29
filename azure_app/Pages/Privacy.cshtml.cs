@@ -7,6 +7,7 @@ namespace azure_app.Pages
     {
         public void OnGet()
         {
+            throw new Exception("This is a test exception for Application Insights.");
         }
     }
 
